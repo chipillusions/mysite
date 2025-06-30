@@ -668,12 +668,12 @@ footer.contact {
   .hero-content h1{
     font-size: 2rem;       /* smaller headline */
     line-height: 1.2;
-    margin-top: 111px;
+    margin-top: 251px;
   }
-  .hero-content p {
-    font-size: 1rem;       /* smaller paragraph */
-    line-height: 1.5;
-    max-width: 90%;        /* reduce width on small screens */
+  .tagline {
+    font-size: 1.2rem; /* smaller tagline */
+    margin-top: 10px;
+    margin-bottom: 50px;
   }
 
   .hero-btn {
