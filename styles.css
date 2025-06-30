@@ -53,6 +53,7 @@ body {
   line-height: 1.4;
   margin-top: 4px;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
 
@@ -170,7 +171,8 @@ body {
   z-index: 2;
 }
 .hero-btn {
-  margin-top: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding: 12px 28px;
   font-size: 2rem;
   background: linear-gradient(135deg, #0078D7, #00BFFF);
@@ -619,6 +621,7 @@ footer.contact {
   .tagline {
     font-size: 0.9rem;
     max-width: 90%;
+    text-transform: uppercase;
   }
 
   .menu-toggle {
