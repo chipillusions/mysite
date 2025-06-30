@@ -200,7 +200,7 @@ body {
   text-align: center;
 }
 
-.machine-image-wrapper {
+.machine-image-wrapper, .drill-highlight {
   width: 100%;
   max-width: 700px;
   aspect-ratio: 3 / 2; /* Matches your image's natural aspect ratio */
@@ -214,7 +214,7 @@ body {
   align-items: center;
 }
 
-.machine-image {
+.machine-image, .drill-image {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -222,7 +222,7 @@ body {
 }
 
 
-.machine-image:hover {
+.machine-image:hover , .drill-image:hover {
   transform: scale(1.03);
 }
 
@@ -261,7 +261,7 @@ h2::after {
 }
 
 /* Image wrapper */
-.machine-image-wrapper {
+.machine-image-wrapper ,.drill-highlight {
   width: 700px;
   max-width: 90vw; /* Responsive limit */
   height: auto;
@@ -276,7 +276,7 @@ h2::after {
 }
 
 /* Machine image */
-.machine-img {
+.machine-img ,.drill-image{
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -284,7 +284,7 @@ h2::after {
   transition: transform 0.3s ease;
 }
 
-.machine-img:hover {
+.machine-img:hover,.drill-image:hover {
   transform: scale(1.03);
 }
 
@@ -302,6 +302,12 @@ h2::after {
 }
 
 .section h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00BFFF; /* Highlight color */
+}
+
+.hero h3{
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #00BFFF; /* Highlight color */
@@ -555,6 +561,8 @@ footer.contact {
   color: white;
   cursor: pointer;
 }
+
+
 /* Smooth Bounce Animation */
 
 @keyframes smoothBounce {
